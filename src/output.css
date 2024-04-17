@@ -725,6 +725,11 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -733,11 +738,6 @@ video {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.py-\[25px\] {
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .pb-\[20px\] {
@@ -917,12 +917,9 @@ video {
     align-items: center;
   }
 
-  .lg\:pr-\[20px\] {
-    padding-right: 20px;
-  }
-
-  .lg\:pr-\[50px\] {
-    padding-right: 50px;
+  .lg\:py-\[25px\] {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
