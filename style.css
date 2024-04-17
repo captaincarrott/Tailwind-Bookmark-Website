@@ -3,21 +3,39 @@
     padding: 0;
     margin: 0;
 }
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
   
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
     font-style: normal;
   }
 
@@ -34,8 +52,11 @@
     font-weight: normal;    
     font-style: normal;
   }
-
-@media (min-width: 280px) and (max-width: 640px) {
+  h1, p, .btn1, .btn2 {
+    font-family: 'poppins';
+  }
+/* @media (max-width: 640px) {
+    
     nav {
         box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
     }
@@ -66,7 +87,6 @@
     .btn1 {
         padding: 10px;
         border-radius: 6px;
-        font-family: "Roboto", sans-serif;
         color: white;
         margin: 10px;
     }
@@ -75,7 +95,6 @@
         padding: 10px;
         border-radius: 6px;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
-        font-family: "Roboto", sans-serif;
         margin: 10px;
     }
     .features {
@@ -164,15 +183,13 @@
     }
     .contact input {
         padding: 50px;
-    }
-    .contact input {
         min-width: 200px;
         border-radius: 5px;
         padding: 10px 10% 10px 5px;
     }
     .ft2 {
         height: 100px;
-        padding: 20px 20px 20px 20px;
+        padding: 20px;
     }
     .ft2 .jst {
         justify-content: space-evenly;
@@ -190,4 +207,4 @@
     .ft2 i {
         margin: 5px;
     }
-}
+} */
